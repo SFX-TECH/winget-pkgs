@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+PackageIdentifier: SFXTechInnovation.SimpleFixAI
+PackageVersion: 1.7.30
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+  - silent
+  - silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2026-08-03
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://updates.simplefixai.com/SimpleFixAI_1.7.30_x64-setup.exe
+    InstallerSha256: 5EDF307AB44F85A17C5C3FAA65A66DE16C244FD7B583FAA5EA7BDD482628B3F1
+    AppsAndFeaturesEntries:
+      - DisplayName: SimpleFixAI
+        Publisher: SFX Tech Innovation LLC
+        ProductCode: SimpleFixAI
+ManifestType: installer
+ManifestVersion: 1.6.0
